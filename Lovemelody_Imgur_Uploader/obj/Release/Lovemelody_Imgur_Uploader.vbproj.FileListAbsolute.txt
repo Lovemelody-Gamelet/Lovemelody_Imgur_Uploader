@@ -1,0 +1,9 @@
+d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\bin\Release\Lovemelody_Imgur_Uploader.exe
+d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\bin\Release\Lovemelody_Imgur_Uploader.pdb
+d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\bin\Release\Lovemelody_Imgur_Uploader.xml
+d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\obj\Release\Lovemelody_Imgur_Uploader.Form1.resources
+d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\obj\Release\Lovemelody_Imgur_Uploader.Resources.resources
+d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\obj\Release\Lovemelody_Imgur_Uploader.vbproj.GenerateResource.Cache
+d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\obj\Release\Lovemelody_Imgur_Uploader.exe
+d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\obj\Release\Lovemelody_Imgur_Uploader.xml
+d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\obj\Release\Lovemelody_Imgur_Uploader.pdb
