@@ -17,3 +17,7 @@ d:\users\jamie\documents\visual studio 2013\Projects\Lovemelody_Imgur_Uploader\L
 \\vm2k8home-03\14020868$\Documents\GitHub\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\bin\Debug\Lovemelody_Imgur_Uploader.exe
 \\vm2k8home-03\14020868$\Documents\GitHub\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\bin\Debug\Lovemelody_Imgur_Uploader.pdb
 \\vm2k8home-03\14020868$\Documents\GitHub\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\bin\Debug\Lovemelody_Imgur_Uploader.xml
+\\vm2k8home-03\14020868$\Documents\GitHub\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\bin\Debug\Lovemelody_Imgur_Uploader.exe.manifest
+\\vm2k8home-03\14020868$\Documents\GitHub\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\bin\Debug\Lovemelody_Imgur_Uploader.application
+\\vm2k8home-03\14020868$\Documents\GitHub\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\obj\Debug\Lovemelody_Imgur_Uploader.exe.manifest
+\\vm2k8home-03\14020868$\Documents\GitHub\Lovemelody_Imgur_Uploader\Lovemelody_Imgur_Uploader\obj\Debug\Lovemelody_Imgur_Uploader.application
