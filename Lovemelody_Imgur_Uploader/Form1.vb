@@ -11,6 +11,7 @@
 '=============================================================
 Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnUpload.Click
+        txtboxReturnURL.Text = Nothing
         Dim PortNumber
         If txtboxProxyPort.Text = "" Then
             PortNumber = 0
@@ -92,6 +93,10 @@ Public Class Form1
     Private Sub btnLookProxy_Click(sender As Object, e As EventArgs) Handles btnLookProxy.Click
         RunCommand.LookUpProxy()
     End Sub
+
+    Private Sub btnReadProxyReg_Click(sender As Object, e As EventArgs) Handles btnReadProxyReg.Click
+        RunCommand.getProxyReg()
+    End Sub
 #End Region
 #Region "Language Settings Goes Here"
     Public Sub LangCHT()
@@ -110,6 +115,7 @@ Public Class Form1
         Me.Label4.Text = "使用者名稱 :"
         Me.Label1.Text = "密碼 :"
         Me.btnLookProxy.Text = "查看 Proxy 設定 [區域網絡設定]"
+        Me.btnReadProxyReg.Text = "自動讀取Proxy"
         Me.Label6.Text = "點一下看看密碼"
         '========================
         Me.GroupBox2.Text = "自訂Imgur的Client ID（如沒有，留空白即可，預設使用戀愛の旋律♪的Client ID。）"
@@ -137,6 +143,7 @@ Public Class Form1
         Me.Label4.Text = "Username :"
         Me.Label1.Text = "Password :"
         Me.btnLookProxy.Text = "Look up Proxy Settings [LAN Settings]"
+        Me.btnReadProxyReg.Text = "Get Proxy Automatically"
         Me.Label6.Text = "ClickShowPassword"
         '========================
         Me.GroupBox2.Text = "Custom Imgur Client ID (If none just leave blank, Default use Lovemelody's Client ID)"
@@ -146,4 +153,9 @@ Public Class Form1
         Me.LovemelodyLink.Text = "Lovemelody"
     End Sub
 #End Region
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
 End Class

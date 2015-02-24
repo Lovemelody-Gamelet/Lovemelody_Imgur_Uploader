@@ -21,4 +21,14 @@
             Form1.txtboxReturnURL.Text = ex.Message
         End Try
     End Sub
+    Public Sub getProxyReg()
+        If My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings", "ProxyServer", Nothing) Is Nothing Then
+            Return
+        Else
+            Dim ProxyServer = My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings", "ProxyServer", Nothing)
+            Dim words As String() = ProxyServer.ToString.Split(":")
+            Form1.txtboxProxyServer.Text = words(0)
+            Form1.txtboxProxyPort.Text = words(1)
+        End If
+    End Sub
 End Class

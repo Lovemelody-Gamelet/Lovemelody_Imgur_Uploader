@@ -50,6 +50,7 @@ Partial Class Form1
         Me.comboxLang = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.LovemelodyLink = New System.Windows.Forms.LinkLabel()
+        Me.btnReadProxyReg = New System.Windows.Forms.Button()
         CType(Me.pbImagePreview, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -68,6 +69,7 @@ Partial Class Form1
         'btnUpload
         '
         Me.btnUpload.BackColor = System.Drawing.Color.Chartreuse
+        Me.btnUpload.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnUpload.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnUpload.Location = New System.Drawing.Point(437, 212)
         Me.btnUpload.Name = "btnUpload"
@@ -87,9 +89,9 @@ Partial Class Form1
         'pbImagePreview
         '
         Me.pbImagePreview.Image = Global.Lovemelody_Imgur_Uploader.My.Resources.Resources.Lovemelody
-        Me.pbImagePreview.Location = New System.Drawing.Point(12, 48)
+        Me.pbImagePreview.Location = New System.Drawing.Point(4, 46)
         Me.pbImagePreview.Name = "pbImagePreview"
-        Me.pbImagePreview.Size = New System.Drawing.Size(416, 336)
+        Me.pbImagePreview.Size = New System.Drawing.Size(425, 344)
         Me.pbImagePreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.pbImagePreview.TabIndex = 4
         Me.pbImagePreview.TabStop = False
@@ -97,6 +99,7 @@ Partial Class Form1
         'btnOpen
         '
         Me.btnOpen.BackColor = System.Drawing.Color.Red
+        Me.btnOpen.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnOpen.Location = New System.Drawing.Point(336, 10)
         Me.btnOpen.Name = "btnOpen"
         Me.btnOpen.Size = New System.Drawing.Size(92, 25)
@@ -107,7 +110,7 @@ Partial Class Form1
         'txtboxProxyServer
         '
         Me.txtboxProxyServer.AcceptsTab = True
-        Me.txtboxProxyServer.Location = New System.Drawing.Point(56, 21)
+        Me.txtboxProxyServer.Location = New System.Drawing.Point(66, 25)
         Me.txtboxProxyServer.Name = "txtboxProxyServer"
         Me.txtboxProxyServer.Size = New System.Drawing.Size(100, 20)
         Me.txtboxProxyServer.TabIndex = 7
@@ -115,7 +118,7 @@ Partial Class Form1
         'txtboxProxyPort
         '
         Me.txtboxProxyPort.AcceptsTab = True
-        Me.txtboxProxyPort.Location = New System.Drawing.Point(209, 21)
+        Me.txtboxProxyPort.Location = New System.Drawing.Point(219, 25)
         Me.txtboxProxyPort.Name = "txtboxProxyPort"
         Me.txtboxProxyPort.Size = New System.Drawing.Size(39, 20)
         Me.txtboxProxyPort.TabIndex = 8
@@ -123,7 +126,7 @@ Partial Class Form1
         'txtboxProxyUsername
         '
         Me.txtboxProxyUsername.AcceptsTab = True
-        Me.txtboxProxyUsername.Location = New System.Drawing.Point(82, 64)
+        Me.txtboxProxyUsername.Location = New System.Drawing.Point(92, 66)
         Me.txtboxProxyUsername.Name = "txtboxProxyUsername"
         Me.txtboxProxyUsername.Size = New System.Drawing.Size(101, 20)
         Me.txtboxProxyUsername.TabIndex = 9
@@ -131,7 +134,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 24)
+        Me.Label2.Location = New System.Drawing.Point(16, 28)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(44, 13)
         Me.Label2.TabIndex = 10
@@ -140,7 +143,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(162, 24)
+        Me.Label3.Location = New System.Drawing.Point(181, 28)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(32, 13)
         Me.Label3.TabIndex = 11
@@ -149,7 +152,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 67)
+        Me.Label4.Location = New System.Drawing.Point(16, 68)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(61, 13)
         Me.Label4.TabIndex = 12
@@ -157,6 +160,7 @@ Partial Class Form1
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.btnReadProxyReg)
         Me.GroupBox1.Controls.Add(Me.btnLookProxy)
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.txtboxProxyPassword)
@@ -177,9 +181,9 @@ Partial Class Form1
         '
         'btnLookProxy
         '
-        Me.btnLookProxy.Location = New System.Drawing.Point(305, 18)
+        Me.btnLookProxy.Location = New System.Drawing.Point(301, 18)
         Me.btnLookProxy.Name = "btnLookProxy"
-        Me.btnLookProxy.Size = New System.Drawing.Size(195, 23)
+        Me.btnLookProxy.Size = New System.Drawing.Size(196, 23)
         Me.btnLookProxy.TabIndex = 16
         Me.btnLookProxy.Text = "Look up Proxy Settings [LAN Settings]"
         Me.btnLookProxy.UseVisualStyleBackColor = True
@@ -187,7 +191,7 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(360, 67)
+        Me.Label6.Location = New System.Drawing.Point(371, 77)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(103, 13)
         Me.Label6.TabIndex = 15
@@ -196,7 +200,7 @@ Partial Class Form1
         'txtboxProxyPassword
         '
         Me.txtboxProxyPassword.AcceptsTab = True
-        Me.txtboxProxyPassword.Location = New System.Drawing.Point(254, 64)
+        Me.txtboxProxyPassword.Location = New System.Drawing.Point(255, 66)
         Me.txtboxProxyPassword.Name = "txtboxProxyPassword"
         Me.txtboxProxyPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtboxProxyPassword.Size = New System.Drawing.Size(100, 20)
@@ -205,7 +209,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(189, 67)
+        Me.Label1.Location = New System.Drawing.Point(199, 69)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(59, 13)
         Me.Label1.TabIndex = 13
@@ -318,6 +322,15 @@ Partial Class Form1
         Me.LovemelodyLink.TabStop = True
         Me.LovemelodyLink.Text = "Lovemelody"
         '
+        'btnReadProxyReg
+        '
+        Me.btnReadProxyReg.Location = New System.Drawing.Point(367, 47)
+        Me.btnReadProxyReg.Name = "btnReadProxyReg"
+        Me.btnReadProxyReg.Size = New System.Drawing.Size(130, 23)
+        Me.btnReadProxyReg.TabIndex = 17
+        Me.btnReadProxyReg.Text = "Get Proxy Automatically"
+        Me.btnReadProxyReg.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -380,5 +393,6 @@ Partial Class Form1
     Friend WithEvents comboxLang As System.Windows.Forms.ComboBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents LovemelodyLink As System.Windows.Forms.LinkLabel
+    Friend WithEvents btnReadProxyReg As System.Windows.Forms.Button
 
 End Class

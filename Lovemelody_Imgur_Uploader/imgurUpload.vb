@@ -4,15 +4,12 @@ Imports System.Text
 Imports System.Text.RegularExpressions
 
 Public Class imgurUpload
-
     Public Sub New(imagePath As String, Optional ClientID As String = Nothing, Optional ProxyServer As String = Nothing, Optional ProxyPort As Integer = Nothing, Optional ProxyUsername As String = Nothing, Optional ProxyPassword As String = Nothing)
         'determinate whether user have custom client ID.
         If ClientID = Nothing Then
             ClientID = "906ce2cb57a3e3a" 'Use lovemelody ID.
         End If
-
         Dim ImgurUploadClient As New WebClient
-
         'Use Proxy server 
         If ProxyPort = 0 Then
             GoTo Line1 'Terrible programming...dont Use this method
@@ -35,16 +32,9 @@ Line1:
             Dim reg As New System.Text.RegularExpressions.Regex("link"":""(.*?)""")
             Dim match As Match = reg.Match(result)
             Dim url As String = match.ToString.Replace("link"":""", "").Replace("""", "").Replace("\/", "/")
-
             Form1.txtboxReturnURL.Text = url 'Display the return url in form 1
-
         Catch ex As Exception
-
             Form1.txtboxReturnURL.Text = "Error, " & ex.Message ' Display an error if occurs.
-
         End Try
-
     End Sub
-
-
 End Class

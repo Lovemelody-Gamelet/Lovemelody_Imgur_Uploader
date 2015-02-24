@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lovemelody_Imgur_Uploader.exe" size="1497088">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lovemelody_Imgur_Uploader.exe" size="1498624">
       <assemblyIdentity name="Lovemelody_Imgur_Uploader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>vhu3qpnMhdOqaFo+y6P4s8WJ/yI=</dsig:DigestValue>
+        <dsig:DigestValue>6xYIGmjSk2+xsnDaQ2O2bG/hgdE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
